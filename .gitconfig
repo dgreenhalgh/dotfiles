@@ -1,0 +1,31 @@
+[user]
+	name = David Greenhalgh 
+	email = davidrgreenhalgh@gmail.com
+[github]
+  user = dgreenhalgh
+[alias]
+  st = status
+  di = diff
+  cl = clone
+  co = checkout
+  cob = checkout -b
+  com = checkout master
+  cm = commit
+  cma = commit -am
+  br = branch
+  del = branch -D
+  mm = merge master
+  po = push origin
+  pl = pull
+  sa = stash apply
+  sl = stash list
+[core]
+	excludesfile = /Users/davidgreenhalgh/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/davidgreenhalgh/.stCommitMsg

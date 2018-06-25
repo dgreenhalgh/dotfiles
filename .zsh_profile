@@ -1,0 +1,5 @@
+export ANDROID_HOME=/Users/davidgreenhalgh/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+export JAVA_HOME=/usr/libexec/java_home
